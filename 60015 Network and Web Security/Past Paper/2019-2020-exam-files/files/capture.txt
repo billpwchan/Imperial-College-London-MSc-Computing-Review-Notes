@@ -1,0 +1,118 @@
+2020-04-29 17:59:25.123271 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [S], seq 517087824, win 29200, options [mss 1460,sackOK,TS val 755798 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:25.123433 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [S.], seq 1523699116, ack 517087825, win 28960, options [mss 1460,sackOK,TS val 770413 ecr 755798,nop,wscale 7], length 0
+2020-04-29 17:59:25.124184 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [.], ack 1, win 229, options [nop,nop,TS val 755798 ecr 770413], length 0
+2020-04-29 17:59:25.124662 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [P.], seq 1:382, ack 1, win 229, options [nop,nop,TS val 755798 ecr 770413], length 381: HTTP: GET /index.html HTTP/1.1
+2020-04-29 17:59:25.124731 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [.], ack 382, win 235, options [nop,nop,TS val 770414 ecr 755798], length 0
+2020-04-29 17:59:25.138695 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [P.], seq 1:1708, ack 382, win 235, options [nop,nop,TS val 770417 ecr 755798], length 1707: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.141015 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [.], ack 1708, win 255, options [nop,nop,TS val 755802 ecr 770417], length 0
+2020-04-29 17:59:25.262220 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [P.], seq 382:740, ack 1708, win 255, options [nop,nop,TS val 755832 ecr 770417], length 358: HTTP: GET /static/brexit.gov.uk/styles/bojo.css HTTP/1.1
+2020-04-29 17:59:25.264422 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [P.], seq 1708:2404, ack 740, win 243, options [nop,nop,TS val 770448 ecr 755832], length 696: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.265706 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [.], ack 2404, win 278, options [nop,nop,TS val 755833 ecr 770448], length 0
+2020-04-29 17:59:25.294900 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [P.], seq 740:1115, ack 2404, win 278, options [nop,nop,TS val 755840 ecr 770448], length 375: HTTP: GET /static/brexit.gov.uk/images/skull.png HTTP/1.1
+2020-04-29 17:59:25.295624 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [.], seq 2404:9644, ack 1115, win 252, options [nop,nop,TS val 770456 ecr 755840], length 7240: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.297396 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [P.], seq 9644:13023, ack 1115, win 252, options [nop,nop,TS val 770457 ecr 755840], length 3379: HTTP
+2020-04-29 17:59:25.298842 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [.], ack 9644, win 391, options [nop,nop,TS val 755842 ecr 770456], length 0
+2020-04-29 17:59:25.300358 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [.], ack 13023, win 444, options [nop,nop,TS val 755842 ecr 770457], length 0
+2020-04-29 17:59:25.300983 IP 10.39.26.9:35564 > 10.39.26.132:80: Flags [S], seq 3585643150, win 29200, options [mss 1460,sackOK,TS val 755842 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:25.301047 IP 10.39.26.132:80 > 10.39.26.9:35564: Flags [S.], seq 2326189566, ack 3585643151, win 28960, options [mss 1460,sackOK,TS val 770458 ecr 755842,nop,wscale 7], length 0
+2020-04-29 17:59:25.301052 IP 10.39.26.9:35565 > 10.39.26.132:80: Flags [S], seq 1746720496, win 29200, options [mss 1460,sackOK,TS val 755842 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:25.301070 IP 10.39.26.132:80 > 10.39.26.9:35565: Flags [S.], seq 1570229110, ack 1746720497, win 28960, options [mss 1460,sackOK,TS val 770458 ecr 755842,nop,wscale 7], length 0
+2020-04-29 17:59:25.301326 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [P.], seq 1115:1488, ack 13023, win 444, options [nop,nop,TS val 755842 ecr 770457], length 373: HTTP: GET /static/brexit.gov.uk/images/bojo.jpg HTTP/1.1
+2020-04-29 17:59:25.302210 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [.], seq 13023:26055, ack 1488, win 260, options [nop,nop,TS val 770458 ecr 755842], length 13032: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.302413 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [P.], seq 26055:34700, ack 1488, win 260, options [nop,nop,TS val 770458 ecr 755842], length 8645: HTTP
+2020-04-29 17:59:25.304663 IP 10.39.26.9:35564 > 10.39.26.132:80: Flags [.], ack 1, win 229, options [nop,nop,TS val 755843 ecr 770458], length 0
+2020-04-29 17:59:25.305013 IP 10.39.26.9:35565 > 10.39.26.132:80: Flags [.], ack 1, win 229, options [nop,nop,TS val 755843 ecr 770458], length 0
+2020-04-29 17:59:25.305335 IP 10.39.26.9:35564 > 10.39.26.132:80: Flags [P.], seq 1:384, ack 1, win 229, options [nop,nop,TS val 755843 ecr 770458], length 383: HTTP: GET /static/brexit.gov.uk/images/arrowredright.gif HTTP/1.1
+2020-04-29 17:59:25.305385 IP 10.39.26.132:80 > 10.39.26.9:35564: Flags [.], ack 384, win 235, options [nop,nop,TS val 770459 ecr 755843], length 0
+2020-04-29 17:59:25.309550 IP 10.39.26.132:80 > 10.39.26.9:35564: Flags [P.], seq 1:416, ack 384, win 235, options [nop,nop,TS val 770460 ecr 755843], length 415: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.310926 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [.], ack 34700, win 783, options [nop,nop,TS val 755845 ecr 770458], length 0
+2020-04-29 17:59:25.311316 IP 10.39.26.9:35564 > 10.39.26.132:80: Flags [.], ack 416, win 237, options [nop,nop,TS val 755845 ecr 770460], length 0
+2020-04-29 17:59:25.314418 IP 10.39.26.9:35565 > 10.39.26.132:80: Flags [P.], seq 1:375, ack 1, win 229, options [nop,nop,TS val 755845 ecr 770458], length 374: HTTP: GET /static/brexit.gov.uk/images/jail.png HTTP/1.1
+2020-04-29 17:59:25.314591 IP 10.39.26.132:80 > 10.39.26.9:35565: Flags [.], ack 375, win 235, options [nop,nop,TS val 770460 ecr 755845], length 0
+2020-04-29 17:59:25.314674 IP 10.39.26.9:35566 > 10.39.26.132:80: Flags [S], seq 2145472622, win 29200, options [mss 1460,sackOK,TS val 755845 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:25.314727 IP 10.39.26.132:80 > 10.39.26.9:35566: Flags [S.], seq 370031382, ack 2145472623, win 28960, options [mss 1460,sackOK,TS val 770460 ecr 755845,nop,wscale 7], length 0
+2020-04-29 17:59:25.314732 IP 10.39.26.9:35567 > 10.39.26.132:80: Flags [S], seq 2438912539, win 29200, options [mss 1460,sackOK,TS val 755845 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:25.314747 IP 10.39.26.132:80 > 10.39.26.9:35567: Flags [S.], seq 2658346155, ack 2438912540, win 28960, options [mss 1460,sackOK,TS val 770460 ecr 755845,nop,wscale 7], length 0
+2020-04-29 17:59:25.314907 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [P.], seq 1488:1870, ack 34700, win 783, options [nop,nop,TS val 755845 ecr 770458], length 382: HTTP: GET /static/brexit.gov.uk/images/arrowreddown.gif HTTP/1.1
+2020-04-29 17:59:25.314939 IP 10.39.26.9:35564 > 10.39.26.132:80: Flags [P.], seq 384:757, ack 416, win 237, options [nop,nop,TS val 755845 ecr 770460], length 373: HTTP: GET /static/brexit.gov.uk/images/tdb.png HTTP/1.1
+2020-04-29 17:59:25.317138 IP 10.39.26.132:80 > 10.39.26.9:35565: Flags [.], seq 1:2897, ack 375, win 235, options [nop,nop,TS val 770462 ecr 755845], length 2896: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.317208 IP 10.39.26.132:80 > 10.39.26.9:35565: Flags [P.], seq 2897:5443, ack 375, win 235, options [nop,nop,TS val 770462 ecr 755845], length 2546: HTTP
+2020-04-29 17:59:25.319964 IP 10.39.26.132:80 > 10.39.26.9:35564: Flags [P.], seq 416:2863, ack 757, win 243, options [nop,nop,TS val 770462 ecr 755845], length 2447: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.320461 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [P.], seq 34700:35922, ack 1870, win 269, options [nop,nop,TS val 770462 ecr 755845], length 1222: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.322367 IP 10.39.26.9:35566 > 10.39.26.132:80: Flags [.], ack 1, win 229, options [nop,nop,TS val 755847 ecr 770460], length 0
+2020-04-29 17:59:25.322400 IP 10.39.26.9:35567 > 10.39.26.132:80: Flags [.], ack 1, win 229, options [nop,nop,TS val 755847 ecr 770460], length 0
+2020-04-29 17:59:25.322406 IP 10.39.26.9:35565 > 10.39.26.132:80: Flags [.], ack 5443, win 314, options [nop,nop,TS val 755847 ecr 770462], length 0
+2020-04-29 17:59:25.322423 IP 10.39.26.9:35564 > 10.39.26.132:80: Flags [.], ack 2863, win 275, options [nop,nop,TS val 755847 ecr 770462], length 0
+2020-04-29 17:59:25.324941 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [P.], seq 1870:2247, ack 35922, win 805, options [nop,nop,TS val 755848 ecr 770462], length 377: HTTP: GET /static/brexit.gov.uk/images/graph09.gif HTTP/1.1
+2020-04-29 17:59:25.325451 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [P.], seq 35922:37683, ack 2247, win 277, options [nop,nop,TS val 770463 ecr 755848], length 1761: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.330750 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [.], ack 37683, win 833, options [nop,nop,TS val 755849 ecr 770463], length 0
+2020-04-29 17:59:25.330784 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [P.], seq 2247:2623, ack 37683, win 833, options [nop,nop,TS val 755849 ecr 770463], length 376: HTTP: GET /static/brexit.gov.uk/images/info01.gif HTTP/1.1
+2020-04-29 17:59:25.330791 IP 10.39.26.9:35565 > 10.39.26.132:80: Flags [P.], seq 375:754, ack 5443, win 314, options [nop,nop,TS val 755849 ecr 770462], length 379: HTTP: GET /static/brexit.gov.uk/images/atwork020.gif HTTP/1.1
+2020-04-29 17:59:25.331032 IP 10.39.26.9:35564 > 10.39.26.132:80: Flags [P.], seq 757:1134, ack 2863, win 275, options [nop,nop,TS val 755849 ecr 770462], length 377: HTTP: GET /static/brexit.gov.uk/images/email05.gif HTTP/1.1
+2020-04-29 17:59:25.331882 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [P.], seq 37683:38407, ack 2623, win 285, options [nop,nop,TS val 770464 ecr 755849], length 724: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.332944 IP 10.39.26.132:80 > 10.39.26.9:35565: Flags [P.], seq 5443:6006, ack 754, win 243, options [nop,nop,TS val 770466 ecr 755849], length 563: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.340220 IP 10.39.26.132:80 > 10.39.26.9:35564: Flags [P.], seq 2863:3443, ack 1134, win 252, options [nop,nop,TS val 770466 ecr 755849], length 580: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:25.341703 IP 10.39.26.9:35568 > 10.39.26.132:80: Flags [S], seq 353635179, win 29200, options [mss 1460,sackOK,TS val 755852 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:25.341784 IP 10.39.26.132:80 > 10.39.26.9:35568: Flags [S.], seq 1348923995, ack 353635180, win 28960, options [mss 1460,sackOK,TS val 770466 ecr 755852,nop,wscale 7], length 0
+2020-04-29 17:59:25.346435 IP 10.39.26.9:35568 > 10.39.26.132:80: Flags [.], ack 1, win 229, options [nop,nop,TS val 755853 ecr 770466], length 0
+2020-04-29 17:59:25.368181 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [.], ack 38407, win 855, options [nop,nop,TS val 755859 ecr 770464], length 0
+2020-04-29 17:59:25.368539 IP 10.39.26.9:35565 > 10.39.26.132:80: Flags [.], ack 6006, win 336, options [nop,nop,TS val 755859 ecr 770466], length 0
+2020-04-29 17:59:25.379169 IP 10.39.26.9:35564 > 10.39.26.132:80: Flags [.], ack 3443, win 298, options [nop,nop,TS val 755862 ecr 770466], length 0
+2020-04-29 17:59:25.408706 IP 10.39.26.13:33694 > 10.39.26.150:80: Flags [S], seq 719317062, win 29200, options [mss 1460,sackOK,TS val 755869 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:25.408789 IP 10.39.26.150:80 > 10.39.26.13:33694: Flags [R.], seq 0, ack 719317063, win 0, length 0
+2020-04-29 17:59:30.338785 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [F.], seq 38407, ack 2623, win 285, options [nop,nop,TS val 771717 ecr 755859], length 0
+2020-04-29 17:59:30.339983 IP 10.39.26.9:35563 > 10.39.26.132:80: Flags [F.], seq 2623, ack 38408, win 855, options [nop,nop,TS val 757102 ecr 771717], length 0
+2020-04-29 17:59:30.340054 IP 10.39.26.132:80 > 10.39.26.9:35563: Flags [.], ack 2624, win 285, options [nop,nop,TS val 771718 ecr 757102], length 0
+2020-04-29 17:59:30.344905 IP 10.39.26.132:80 > 10.39.26.9:35564: Flags [F.], seq 3443, ack 1134, win 252, options [nop,nop,TS val 771719 ecr 755862], length 0
+2020-04-29 17:59:30.345865 IP 10.39.26.9:35564 > 10.39.26.132:80: Flags [F.], seq 1134, ack 3444, win 298, options [nop,nop,TS val 757103 ecr 771719], length 0
+2020-04-29 17:59:30.345911 IP 10.39.26.132:80 > 10.39.26.9:35564: Flags [.], ack 1135, win 252, options [nop,nop,TS val 771719 ecr 757103], length 0
+2020-04-29 17:59:30.350060 IP 10.39.26.132:80 > 10.39.26.9:35565: Flags [F.], seq 6006, ack 754, win 243, options [nop,nop,TS val 771720 ecr 755859], length 0
+2020-04-29 17:59:30.351095 IP 10.39.26.9:35565 > 10.39.26.132:80: Flags [F.], seq 754, ack 6007, win 336, options [nop,nop,TS val 757105 ecr 771720], length 0
+2020-04-29 17:59:30.351196 IP 10.39.26.132:80 > 10.39.26.9:35565: Flags [.], ack 755, win 243, options [nop,nop,TS val 771720 ecr 757105], length 0
+2020-04-29 17:59:30.361099 IP 10.39.26.13:47725 > 10.39.26.150:1352: Flags [S], seq 3213090065, win 29200, options [mss 1460,sackOK,TS val 756735 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:30.361100 IP 10.39.26.150:1352 > 10.39.26.13:47725: Flags [R.], seq 0, ack 3213090066, win 0, length 0
+2020-04-29 17:59:30.373903 IP 10.39.26.9:41313 > 10.39.26.146:80: Flags [S], seq 2419313877, win 29200, options [mss 1460,sackOK,TS val 757110 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:30.484712 IP 10.39.26.9:35566 > 10.39.26.132:80: Flags [F.], seq 1, ack 1, win 229, options [nop,nop,TS val 757138 ecr 770460], length 0
+2020-04-29 17:59:30.485246 IP 10.39.26.9:35567 > 10.39.26.132:80: Flags [F.], seq 1, ack 1, win 229, options [nop,nop,TS val 757138 ecr 770460], length 0
+2020-04-29 17:59:30.485309 IP 10.39.26.9:35568 > 10.39.26.132:80: Flags [F.], seq 1, ack 1, win 229, options [nop,nop,TS val 757138 ecr 770466], length 0
+2020-04-29 17:59:30.485978 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [S], seq 146268038, win 29200, options [mss 1460,sackOK,TS val 757138 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:30.486042 IP 10.39.26.132:80 > 10.39.26.9:35572: Flags [S.], seq 2707400617, ack 146268039, win 28960, options [mss 1460,sackOK,TS val 771754 ecr 757138,nop,wscale 7], length 0
+2020-04-29 17:59:30.486738 IP 10.39.26.132:80 > 10.39.26.9:35566: Flags [F.], seq 1, ack 2, win 227, options [nop,nop,TS val 771754 ecr 757138], length 0
+2020-04-29 17:59:30.487055 IP 10.39.26.132:80 > 10.39.26.9:35567: Flags [F.], seq 1, ack 2, win 227, options [nop,nop,TS val 771754 ecr 757138], length 0
+2020-04-29 17:59:30.487305 IP 10.39.26.132:80 > 10.39.26.9:35568: Flags [F.], seq 1, ack 2, win 227, options [nop,nop,TS val 771754 ecr 757138], length 0
+2020-04-29 17:59:30.489689 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [.], ack 1, win 229, options [nop,nop,TS val 757139 ecr 771754], length 0
+2020-04-29 17:59:30.489725 IP 10.39.26.9:35566 > 10.39.26.132:80: Flags [.], ack 2, win 229, options [nop,nop,TS val 757139 ecr 771754], length 0
+2020-04-29 17:59:30.489760 IP 10.39.26.9:35567 > 10.39.26.132:80: Flags [.], ack 2, win 229, options [nop,nop,TS val 757139 ecr 771754], length 0
+2020-04-29 17:59:30.489773 IP 10.39.26.9:35568 > 10.39.26.132:80: Flags [.], ack 2, win 229, options [nop,nop,TS val 757139 ecr 771754], length 0
+2020-04-29 17:59:30.490011 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [P.], seq 1:318, ack 1, win 229, options [nop,nop,TS val 757139 ecr 771754], length 317: HTTP: GET /static/tools.brexit.gov.uk/styles/bojo.css HTTP/1.1
+2020-04-29 17:59:30.490050 IP 10.39.26.132:80 > 10.39.26.9:35572: Flags [.], ack 318, win 235, options [nop,nop,TS val 771755 ecr 757139], length 0
+2020-04-29 17:59:30.504620 IP 10.39.26.132:80 > 10.39.26.9:35572: Flags [P.], seq 1:698, ack 318, win 235, options [nop,nop,TS val 771759 ecr 757139], length 697: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:30.505052 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [.], ack 698, win 240, options [nop,nop,TS val 757143 ecr 771759], length 0
+2020-04-29 17:59:32.329186 IP 10.39.26.13:47728 > 10.39.26.150:1352: Flags [S], seq 2510248038, win 29200, options [mss 1460,sackOK,TS val 757599 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:32.329368 IP 10.39.26.150:1352 > 10.39.26.13:47728: Flags [R.], seq 0, ack 2510248039, win 0, length 0
+2020-04-29 17:59:33.816477 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [P.], seq 318:652, ack 698, win 240, options [nop,nop,TS val 757971 ecr 771759], length 334: HTTP: GET /feedback.html HTTP/1.1
+2020-04-29 17:59:33.822199 IP 10.39.26.132:80 > 10.39.26.9:35572: Flags [P.], seq 698:2035, ack 652, win 243, options [nop,nop,TS val 772587 ecr 757971], length 1337: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:33.823098 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [.], ack 2035, win 262, options [nop,nop,TS val 757973 ecr 772587], length 0
+2020-04-29 17:59:33.958307 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [P.], seq 652:970, ack 2035, win 262, options [nop,nop,TS val 758006 ecr 772587], length 318: HTTP: GET /static/brexit.gov.uk/styles/bojo.css HTTP/1.1
+2020-04-29 17:59:33.962542 IP 10.39.26.132:80 > 10.39.26.9:35572: Flags [P.], seq 2035:2731, ack 970, win 252, options [nop,nop,TS val 772622 ecr 758006], length 696: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:33.964887 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [.], ack 2731, win 283, options [nop,nop,TS val 758008 ecr 772622], length 0
+2020-04-29 17:59:35.781547 IP 10.39.26.13:33699 > 10.39.26.150:80: Flags [S], seq 547804056, win 29200, options [mss 1460,sackOK,TS val 758462 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:35.781635 IP 10.39.26.150:80 > 10.39.26.13:33699: Flags [R.], seq 0, ack 547804057, win 0, length 0
+2020-04-29 17:59:37.161667 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [P.], seq 970:1398, ack 2731, win 283, options [nop,nop,TS val 758806 ecr 772622], length 428: HTTP: POST /feedback.php HTTP/1.1
+2020-04-29 17:59:37.164843 IP 10.39.26.132:80 > 10.39.26.9:35572: Flags [P.], seq 2731:3236, ack 1398, win 260, options [nop,nop,TS val 773423 ecr 758806], length 505: HTTP: HTTP/1.1 404 Not Found
+2020-04-29 17:59:37.167340 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [.], ack 3236, win 304, options [nop,nop,TS val 758809 ecr 773423], length 0
+2020-04-29 17:59:39.289298 IP 10.39.26.13:43387 > 10.39.26.150:80: Flags [S], seq 1380792358, win 29200, options [mss 1460,sackOK,TS val 759339 ecr 0,nop,wscale 7], length 0
+2020-04-29 17:59:39.289548 IP 10.39.26.150:80 > 10.39.26.13:43387: Flags [S.], seq 1557038902, ack 1380792359, win 28960, options [mss 1460,sackOK,TS val 773955 ecr 759339,nop,wscale 7], length 0
+2020-04-29 17:59:39.290267 IP 10.39.26.13:43387 > 10.39.26.150:80: Flags [.], ack 1, win 229, options [nop,nop,TS val 759339 ecr 773955], length 0
+2020-04-29 17:59:39.302390 IP 10.39.26.13:43387 > 10.39.26.150:80: Flags [F.], seq 1, ack 1, win 229, options [nop,nop,TS val 759342 ecr 773955], length 0
+2020-04-29 17:59:39.304124 IP 10.39.26.150:80 > 10.39.26.13:43387: Flags [.], ack 2, win 227, options [nop,nop,TS val 773959 ecr 759342], length 0
+2020-04-29 17:59:39.400813 IP 10.39.26.150:80 > 10.39.26.13:43387: Flags [P.], seq 1:331, ack 2, win 227, options [nop,nop,TS val 773982 ecr 759342], length 330
+2020-04-29 17:59:39.404882 IP 10.39.26.150:80 > 10.39.26.13:43387: Flags [F.], seq 331, ack 2, win 227, options [nop,nop,TS val 773983 ecr 759342], length 0
+2020-04-29 17:59:39.405373 IP 10.39.26.13:43387 > 10.39.26.150:80: Flags [R], seq 1380792360, win 0, length 0
+2020-04-29 17:59:39.407819 IP 10.39.26.13:43387 > 10.39.26.150:80: Flags [R], seq 1380792360, win 0, length 0
+2020-04-29 17:59:40.520681 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [P.], seq 1398:1715, ack 3236, win 304, options [nop,nop,TS val 759647 ecr 773423], length 317: HTTP: GET /static/tools.brexit.gov.uk/styles/bojo.css HTTP/1.1
+2020-04-29 17:59:40.525019 IP 10.39.26.132:80 > 10.39.26.9:35572: Flags [P.], seq 3236:3932, ack 1715, win 269, options [nop,nop,TS val 774263 ecr 759647], length 696: HTTP: HTTP/1.1 200 OK
+2020-04-29 17:59:40.526437 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [.], ack 3932, win 325, options [nop,nop,TS val 759648 ecr 774263], length 0
+2020-04-29 17:59:45.531061 IP 10.39.26.132:80 > 10.39.26.9:35572: Flags [F.], seq 3932, ack 1715, win 269, options [nop,nop,TS val 775515 ecr 759648], length 0
+2020-04-29 17:59:45.532022 IP 10.39.26.9:35572 > 10.39.26.132:80: Flags [F.], seq 1715, ack 3933, win 325, options [nop,nop,TS val 760900 ecr 775515], length 0
+2020-04-29 17:59:45.532166 IP 10.39.26.132:80 > 10.39.26.9:35572: Flags [.], ack 1716, win 269, options [nop,nop,TS val 775516 ecr 760900], length 0

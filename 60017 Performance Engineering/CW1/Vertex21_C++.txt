@@ -1,0 +1,52 @@
+2021-02-17 21:10:00
+Running ./Benchmark
+Run on (12 X 4600 MHz CPU s)
+CPU Caches:
+  L1 Data 32K (x6)
+  L1 Instruction 32K (x6)
+  L2 Unified 256K (x6)
+  L3 Unified 12288K (x1)
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+------------------------------------------------------------------
+Benchmark                           Time           CPU Iterations
+------------------------------------------------------------------
+mapBenchmark_1500/2             31430 ns      31430 ns      21516
+mapBenchmark_1500/4             48333 ns      48334 ns      15662
+mapBenchmark_1500/8             62593 ns      62593 ns       9408
+mapBenchmark_1500/16            95215 ns      95215 ns       7678
+mapBenchmark_1500/32           150730 ns     150728 ns       5238
+mapBenchmark_1500/64           224127 ns     224129 ns       3298
+mapBenchmark_1500/128          367169 ns     367165 ns       1930
+mapBenchmark_1500/256          624489 ns     624478 ns       1111
+mapBenchmark_1500/512         1186545 ns    1186547 ns        609
+mapBenchmark_1500/1024        2197763 ns    2197771 ns        309
+forLoopBenchmark_1500/2         30063 ns      30061 ns      20681
+forLoopBenchmark_1500/4         50494 ns      50493 ns      14935
+forLoopBenchmark_1500/8         76557 ns      76556 ns      11536
+forLoopBenchmark_1500/16        96531 ns      96532 ns       7565
+forLoopBenchmark_1500/32       142705 ns     142705 ns       4914
+forLoopBenchmark_1500/64       226392 ns     226393 ns       3067
+forLoopBenchmark_1500/128      369412 ns     369411 ns       1974
+forLoopBenchmark_1500/256      640281 ns     640281 ns       1062
+forLoopBenchmark_1500/512     1147050 ns    1147063 ns        610
+forLoopBenchmark_1500/1024    2262435 ns    2262437 ns        304
+mapBenchmark_1/2                   19 ns         19 ns   29743747
+mapBenchmark_1/4                   23 ns         23 ns   27355201
+mapBenchmark_1/8                   30 ns         30 ns   22226109
+mapBenchmark_1/16                  44 ns         43 ns   17462175
+mapBenchmark_1/32                  58 ns         58 ns   12964244
+mapBenchmark_1/64                 105 ns        105 ns    7286678
+mapBenchmark_1/128                219 ns        219 ns    3409957
+mapBenchmark_1/256                387 ns        387 ns    1990716
+mapBenchmark_1/512                775 ns        775 ns     886327
+mapBenchmark_1/1024              1464 ns       1464 ns     487870
+forLoopBenchmark_1/2               19 ns         19 ns   28794793
+forLoopBenchmark_1/4               22 ns         22 ns   27435077
+forLoopBenchmark_1/8               29 ns         29 ns   22735366
+forLoopBenchmark_1/16              42 ns         42 ns   17427891
+forLoopBenchmark_1/32              63 ns         63 ns   11764028
+forLoopBenchmark_1/64             101 ns        101 ns    7071870
+forLoopBenchmark_1/128            221 ns        221 ns    3522946
+forLoopBenchmark_1/256            364 ns        364 ns    1877615
+forLoopBenchmark_1/512            748 ns        748 ns     927187
+forLoopBenchmark_1/1024          1397 ns       1397 ns     459090

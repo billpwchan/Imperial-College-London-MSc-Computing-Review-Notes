@@ -1,0 +1,16 @@
+data;
+
+set ROWS := 1 2 3 4 5 6; # attacking configurations
+set COLS := A B C D E F; # defensive strategies
+
+/* estimated value to the Allies of each hypothetical battle in some numerical units */
+param payoff : A B C D E F :=
+1 13 29  8 12 16 23
+2 18 22 21 22 29 31
+3 18 22 31 31 27 37
+4 11 22 12 21 21 26
+5 18 16 19 14 19 28
+6 23 22 19 23 30 34;
+
+end;
+
